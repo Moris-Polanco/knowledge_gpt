@@ -17,6 +17,7 @@ from typing import Type, Union
 file_type: Union[Type[str], Type[bytes]] = type(file_content)
 
 
+
 def clear_submit():
     st.session_state["submit"] = False
 
