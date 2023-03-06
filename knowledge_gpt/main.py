@@ -12,6 +12,9 @@ from utils import (
     text_to_docs,
     wrap_text_in_html,
 )
+from typing import Type, Union
+
+file_type: Union[Type[str], Type[bytes]] = type(file_content)
 
 
 def clear_submit():
