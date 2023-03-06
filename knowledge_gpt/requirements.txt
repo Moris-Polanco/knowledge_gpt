@@ -1,3 +1,4 @@
 docx2txt
 openai
 streamlit
+langchain
