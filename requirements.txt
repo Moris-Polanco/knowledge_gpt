@@ -2,3 +2,4 @@ streamlit
 openai
 pandas
 docx2txt
+python-docx
